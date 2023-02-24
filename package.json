@@ -1,0 +1,31 @@
+{
+  "name": "seleniumwdio",
+  "version": "1.0.0",
+  "description": "automation selenium WDIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faisbisa/SeleniumWDIO.git"
+  },
+  "keywords": [
+    "fais"
+  ],
+  "author": "fais al",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faisbisa/SeleniumWDIO/issues"
+  },
+  "homepage": "https://github.com/faisbisa/SeleniumWDIO#readme",
+  "devDependencies": {
+    "@wdio/cli": "^8.3.10",
+    "@wdio/local-runner": "^8.3.11",
+    "@wdio/mocha-framework": "^8.3.0",
+    "@wdio/spec-reporter": "^8.3.0",
+    "chromedriver": "^110.0.0",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
